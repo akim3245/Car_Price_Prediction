@@ -17,6 +17,6 @@ To better understand the dataset used, the predictive features were explored and
 After preprocessing the data, XGBoost Regressor was used to train and make predictions on the test set. 
 
 ## Notebooks
-**Cars_Dev** - Process of exploring the data with feature visualizations (matplotlib, seaborn), cleaning, model selection, optimizing algorithm parameters and testing.
+**Cars_Dev** - Process of exploring the data with feature visualizations (matplotlib, seaborn), cleaning, model selection, optimizing algorithm parameters and testing. (Model Development)
 
 **Cars_Production** - No visualizations or experiments, only processing and cleaning the data, then training and testing the model using the best parameters. 
