@@ -27,7 +27,7 @@ Most expensive car in the dataset:
 
 After preprocessing the data, XGBoost Regressor was used to train and make predictions on the test set. 
 
-### Results
+## Results
 Using a random sample of data, the algorithm made predictions that were relatively close to the true value.
 [![sample.png](https://i.postimg.cc/vBqh0MC5/sample.png)](https://postimg.cc/zbhTBmzf)
 
@@ -38,7 +38,7 @@ The model produced the following r2 scores and root mean square errors:
 
 The train set performs better with a higher r2 score and lower RMSE which suggests that it is overfit to the training data.
 
-### Future Work
+## Future Work
 To improve the model, I would consider adjusting gamma, L1 and L2 regularization hyperparameters to control the complexity of the model. 
 Another reason the model may have overfit to the training data could be because there are many features (more than 200) 
 therefore I would run feature selection to keep only the most informative features.
